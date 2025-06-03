@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Al Badariyya Catering Services</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #f5f0e6, #ffe6cc);
+      color: #333;
+    }
+    header {
+      background-color: #d84315;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+      font-size: 2.8rem;
+      font-weight: bold;
+      font-family: 'Brush Script MT', cursive;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 5px #801f0a;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+      background: white;
+      box-shadow: 0 0 15px rgba(216, 67, 21, 0.3);
+      border-radius: 12px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #d84315;
+      border-bottom: 3px solid #d84315;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    ul.socials {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    ul.socials li a {
+      color: #d84315;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    ul.socials li a:hover {
+      color: #802600;
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    button {
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      padding: 15px 32px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: white;
+      transition: background-color 0.3s ease;
+      flex: 1 1 180px;
+    }
+    button.call {
+      background-color: #FF5733;
+    }
+    button.call:hover {
+      background-color: #cc4528;
+    }
+    button.whatsapp {
+      background-color: #25D366;
+    }
+    button.whatsapp:hover {
+      background-color: #1a9f4e;
+    }
+    .reviews {
+      background: #fff7f1;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: inset 0 0 5px #d84315;
+    }
+    .review {
+      margin-bottom: 20px;
+      font-style: italic;
+      border-left: 5px solid #d84315;
+      padding-left: 15px;
+      background: #fff0e0;
+      border-radius: 6px;
+    }
+    .review:last-child {
+      margin-bottom: 0;
+    }
+    .review-author {
+      font-weight: bold;
+      font-style: normal;
+      margin-top: 6px;
+      color: #a1320a;
+    }
+    form {
+      background: #ffe6cc;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #d84315aa;
+    }
+    form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #d84315;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 2px solid #d84315;
+      border-radius: 6px;
+      font-size: 1rem;
+      resize: vertical;
+    }
+    form button {
+      background-color: #d84315;
+      color: white;
+      padding: 12px 25px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #a1320a;
+    }
+    footer {
+      background-color: #d84315;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 1rem;
+    }
+    @media (max-width: 600px) {
+      header {
+        font-size: 2rem;
+      }
+      button {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Al Badariyya Catering Services</header>
+  <main>
+    <section id="welcome">
+      <h2>Welcome</h2>
+      <p>Your premier destination for exquisite catering, offering delectable dishes for weddings, corporate events, and private parties.</p>
+    </section>
+
+    <section id="location">
+      <h2>Our Location</h2>
+      <p>Kavanoor P.O., Poochengal, Malappuram District, Kerala – 673641</p>
+      <iframe
+        src="https://www.google.com/maps?q=Kavanoor%20Poochengal%20Malappuram%20Kerala&output=embed"
+        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Us</h2>
+      <p><strong>Customer Support:</strong> +91 8606 221010</p>
+      <p><strong>Working Hours:</strong> Open 24 Hours, 7 Days a Week</p>
+      <p><strong>Email Addresses:</strong></p>
+      <ul>
+        <li>General Inquiries: <a href="mailto:contact@albadariyya.com">contact@albadariyya.com</a></li>
+        <li>Event Bookings: <a href="mailto:events@albadariyya.com">events@albadariyya.com</a></li>
+        <li>Customer Support: <a href="mailto:support@albadariyya.com">support@albadariyya.com</a></li>
+      </ul>
+      <p><strong>Follow us on Social Media:</strong></p>
+      <ul class="socials">
+        <li><a href="https://www.facebook.com/AlBadariyyaCatering" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.instagram.com/AlBadariyyaCatering" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/company/AlBadariyyaCatering" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <section id="contact-buttons">
+      <h2>Quick Contact</h2>
+      <div class="buttons">
+        <a href="tel:+918606221010"><button class="call" aria-label="Call Al Badariyya Catering Services">Call Us Now</button></a>
+        <a href="https://wa.me/918606221010?text=Hello%20Al%20Badariyya%20Catering%20Services,%20I'm%20interested%20in%20your%20catering%20services." target="_blank" rel="noopener">
+          <button class="whatsapp" aria-label="Chat with Al Badariyya Catering Services on WhatsApp">Chat on WhatsApp</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <h2>Customer Reviews</h2>
+      <div class="reviews">
+        <div class="review">
+          “The food was out-of-this-world delicious. The staff was helpful in doing much more than cooking and serving food. They are incredibly accommodating and will work with any budget.”
+          <div class="review-author">— Christie & Ben</div>
+        </div>
+        <div class="review">
+          “The food was fantastic, there was more than enough for everyone, and their service was amazing! Highly recommended!”
+          <div class="review-author">— Fiona Kemp</div>
+        </div>
+        <div class="review">
+          “Thank you so much for the wonderful service at my wedding. The food and staff were amazing. We will recommend you to family and friends in the future.”
+          <div class="review-author">— Nicole & Erik R.</div>
+        </div>
+        <div class="review">
+          “The food was absolutely delicious. What a treat it was to taste new flavors. The customer service was outstanding.”
+          <div class="review-author">— Lisa B.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="review-form">
+      <h2>Leave a Review</h2>
+      <form id="reviewForm">
+        <label for="name">Your Name *</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name" />
+        
+        <label for="review">Your Review *</label>
+        <textarea id="review" name="review" rows="4" required placeholder="Write your review here"></textarea>
+        
+        <button type="submit">Submit Review</button>
+      </form>
+      <p id="thankyou-message" style="display:none; color: green; font-weight: bold; margin-top: 10px;">Thank you for your review!</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Al Badariyya Catering Services | Kerala, India
+  </footer>
+
+  <script>
+    // Handle review form submission
+    const reviewForm = document.getElementById('reviewForm');
+    const thankYouMsg = document.getElementById('thankyou-message');
+    const reviewsContainer = document.querySelector('.reviews');
+
+    reviewForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = reviewForm.name.value.trim();
+      const reviewText = reviewForm.review.value.trim();
+
+      if (name && reviewText) {
+        // Create new review element
+        const newReview = document.createElement('div');
+        newReview.classList.add('review');
+        newReview.innerHTML = `
+          "${reviewText}"
+          <div class="review-author">— ${name}</div>
+        `;
+
+        // Append new review on top
+        reviewsContainer.insertBefore(newReview, reviewsContainer.firstChild);
+
+        // Reset form and show thank you
+        reviewForm.reset();
+        thankYouMsg.style.display = 'block';
+
+        // Hide message after 3 seconds
+        setTimeout(() => {
+          thankYouMsg.style.display = 'none';
+        }, 3000);
+      }
+    });
+  </script>
+</body>
+</html>
